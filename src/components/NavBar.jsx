@@ -102,28 +102,35 @@ const NavBar = () => {
                                 <div  className="aos-init aos-animate md:hidden index-10 w-full" id="mobile-menu">
                                     <div data-aos='flip-down'  className="bg-nav-tp aos-init aos-animate -ml-4  absolute w-screen text-center h-auto bg-gray-700 pb-10">
                                         <a
-                                        to="/shop"
+                                        href="#about"
                                         className="text-center hover:bg-gray-700 text-white block px-3 py-6 rounded-md text-2xl font-medium"
                                         >
-                                        Menu
+                                        About Me
                                         </a>
 
                                         <a
-                                        to="#services"
+                                        href="#services"
                                         className="text-center text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-6 rounded-md text-2xl font-medium"
                                         >
                                         Services
                                         </a>
 
                                         <a
-                                        to="/contact"
+                                        href="#workflow"
+                                        className="text-center text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-6 rounded-md text-2xl font-medium"
+                                        >
+                                        Workflow
+                                        </a>
+                                        <a
+                                        href="#contact"
                                         className="text-center text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-6 rounded-md text-2xl font-medium"
                                         >
                                         Contact
                                         </a>
-                                        <a href="#!" className="bg-purple px-14 py-4 rounded-full">
-                                        Projects
+                                        <a href="#projects" className="bg-purple px-14 py-4 rounded-full">
+                                        My Projects
                                         </a>
+                                        
                                 
 
                                 
