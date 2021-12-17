@@ -1,0 +1,92 @@
+.portfolio-section{padding-bottom:5rem;  }
+@media (max-width:600px){.portfolio-section{margin-bottom:10rem}}
+ .portfolio-section .portfolio-header{margin-bottom:5.1rem}
+ .flex-container{
+   /* background-color: rgb(141, 119, 119); */
+   width:70%;
+   margin-left:auto;
+   margin-right:auto;
+   display:flex;
+   flex-wrap:wrap;
+   justify-content:space-around
+  }
+
+ .flex-container>div{
+   display:flex;flex-direction:column;flex:1 1 25rem;margin-bottom:2.6rem}
+
+ .flex-container>div:last-of-type{margin-bottom:0}
+ .flex-container 
+ .profile-container{
+   flex: 0 1 30%;
+   width:300rem;
+   position:relative;
+   overflow:hidden;
+   box-shadow:0 4px 8px 0 rgba(0,0,0,.2),0 6px 20px 0 rgba(0,0,0,.19);
+   border-radius:5px;
+   transition:all 1s ease;
+   height:31rem;
+   font-family:SF Pro Display,sans-serif}
+ 
+   @media (max-width:640px){
+    .flex-container .profile-container{
+      /* display: grid; */
+      flex: 0 1 90%;
+      width: 100%;
+    }
+   }
+   @media (min-width:641px) and (max-width:960px) {
+    .flex-container .profile-container{
+      /* display: grid; */
+      flex: 0 1 47%;
+      /* width: 80%; */
+    }
+   }
+
+   .flex-container .profile-container:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;opacity:1;transition:all .5s ease-in;background-position:50%;background-repeat:no-repeat;background-size:cover;background-color:#0f0d16;object-fit:cover}
+ .flex-container .port-container-1:before{background-image:url(../src/images/breakingbadcast.jpg)}
+ .flex-container .port-container-2:before{background-image:url(../src//images/restaurant.jpg)}.flex-container .port-container-3:before{background-image:url(../src//images/booklist1.jpg)}
+ .flex-container .port-container-4:before{background-image:url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063691/portfolio/new-port-4_dlvmpd.jpg)}
+ .flex-container .port-container-5:before{background-image:url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063695/portfolio/new-port-5_f6hpjs.jpg)}
+ .flex-container .port-container-6:before{background-image:url(https://res.cloudinary.com/kemkem-dev/image/upload/c_fit,h_600,w_600/v1601063692/portfolio/new-port-6_uuwkso.jpg)}
+ .flex-container .profile-container:hover:before{opacity:0;transition:all .5s ease}
+ .flex-container .profile-wrapper{width:100%;height:100%;position:relative}
+ .flex-container .profile-wrapper:before{transform:skew(30deg) translateX(125%)}
+ .flex-container .profile-wrapper:after,.flex-container .profile-wrapper:before{content:"";position:absolute;top:0;left:0;width:100%;height:100%;background:linear-gradient(90deg,#2371ae 0,#bb47d4);opacity:.9;transition:all .6s ease}.flex-container .profile-wrapper:after{transform:skew(30deg) translateX(-125%)}
+ .flex-container .profile-container:hover .profile-wrapper:after{transform:skew(30deg) translateX(125%);background:linear-gradient(90deg,#bb47d4 0,#2371ae)}
+ .flex-container .profile-container:hover .profile-wrapper:before{transform:skew(30deg) translateX(-125%);background:linear-gradient(90deg,#bb47d4 0,#2371ae)}
+
+ .flex-container .profile-card{
+   /* background: red; */
+   width:100%;
+   height:100%;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   justify-content:center;
+   text-align:center;
+   padding:4rem 10px;
+   position:relative;
+   opacity:0;
+   transition:all .3s ease;
+   color:#fff}
+
+ .flex-container .profile-container:hover .profile-card{opacity:1;transition:all .6s ease;transition-delay:.2s}
+
+ .flex-container .profile-card .fav-icon{color:#ec0e0e;position:absolute;top:5px;left:10px;font-size:21px;cursor:pointer}
+ .flex-container .profile-card h2{line-height:1.2;color:#222}
+
+ .flex-container .profile-card h4{
+   line-height:1.5;color:#444;color:#fff;font-size:1.5rem;font-weight:700}
+  
+   .flex-container .profile-card p{line-height: 2rem;color:#fff;margin:2rem 0;font-size:1.1rem}
+ .flex-container .profile-card a{
+   display:inline-block;
+   text-decoration:none;
+   font-size:1.4rem;
+   font-weight:500;
+   color:#fff;
+   padding:.8rem 1.8rem;
+   margin-top:1rem;
+   background:#2371ae;
+   border-radius:5rem;
+   background:linear-gradient(90deg,#bb47d4 0,#2371ae)}

@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.6.0",
+    "@emotion/styled": "^11.6.0",
+    "@fontsource/roboto": "^4.5.1",
+    "@headlessui/react": "^1.4.2",
+    "@mui/material": "^5.2.0",
+    "@mui/styled-engine-sc": "^5.1.0",
+    "aos": "^2.3.4",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-router-dom": "5.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19",
+    "vite": "^1.0.0-rc.13",
+    "vite-plugin-react": "^4.0.0"
+  }
+}
