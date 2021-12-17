@@ -1,7 +1,6 @@
 import React from 'react'
 import profile from './../images/profile-pic.jpeg'
 import github from '../images/github.svg'
-// import myCv from './cv.txt'
 
 
 const AboutMe = () => {
