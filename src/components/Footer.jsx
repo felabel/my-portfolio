@@ -17,7 +17,7 @@ const Footer = () => {
                 <div className="socials flex justify-around  mx-auto md:mx-0  md:gap-4 lg:gap-4 xl:gap-4 py-2 md:py-0">
                     <img src={twitter}/>
                     <div className='my-auto w-10 h-10 px-2 py-2'>
-                     <a href='https://wa.me/+2439063843098?text=chat%me%up%on%whatsApp'>
+                     <a href='https://wa.me/+2349063843098?text=chat%me%up%on%whatsApp'>
                        <img src={whatsapp}/> 
                     </a>
                     </div>
