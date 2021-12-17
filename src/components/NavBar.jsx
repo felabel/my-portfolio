@@ -56,7 +56,7 @@ const NavBar = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
                                         viewBox="0 0 24 24"
-                                        stroke="#ff6e0d"
+                                        stroke="rgb(221, 54,183)"
                                         aria-hidden="true"
                                     >
                                         <path
@@ -72,7 +72,7 @@ const NavBar = () => {
                                         xmlns="http://www.w3.org/2000/svg"
                                         fill="none"
                                         viewBox="0 0 24 24"
-                                        stroke="#ff6e0d"
+                                        stroke="rgb(221, 54,183)"
                                         aria-hidden="true"
                                     >
                                         <path

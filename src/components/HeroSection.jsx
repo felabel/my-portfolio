@@ -31,7 +31,7 @@ const HeroSection = () => {
                         
                     </div>
                     <div className="pic  h-full  md:block xl:block lg:block pb-10 mx-auto">
-                        <div className=" center text-2xl my-auto mx-auto ">
+                        <div className=" center text-xl md:text-2xl my-auto mx-auto ">
                         <h2 className="text-purple text-3xl font-bold uppercase pt-2">My Services</h2>
                             <ul className="text-gray-100 font-bold capitalize">
                                 <li className='my-2 list-disc'> <i>e-Commerce websites</i></li>

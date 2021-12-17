@@ -26,13 +26,14 @@ const AboutMe = () => {
                         <p className='text-lg md:text-base lg:text-base xl:text-base 2xl:text-base py-4'>I love implementing beautiful designs by coding them with modern technologies and making it available in a very interactive and fumctional form for consumers. </p>
 
                         {/* <p className='text-lg md:text-base lg:text-base xl:text-base 2xl:text-base py-4'>I'm very passionate with what i do and always ready to start the next project with you or your company. </p> */}
-                        <div className=' py-6'>
-                            <a href="https://www.github.com/felabel" className="bg-github px-8  py-4 mr-2 rounded-full my-6 font-semibold tracking-wide">
+                        <div className='py-6 md:flex block'>
+                            <a  href='./cv.txt' target='_blank' download='./cv.txt' className="bg-gradient-purple px-20 py-4 rounded-full my-6 font-semibold tracking-wide">
+                                DownLoad CV
+                            </a>  
+                            <a href="https://www.github.com/felabel" className="block bg-github px-8  py-4 mr-2 rounded-full my-6 font-semibold tracking-wide">
                                 Github  <span><img src={github} className='inline-block '/></span>
                             </a> 
-                          <a  href='./cv.txt' target='_blank' download='./cv.txt' className="bg-gradient-purple px-20 py-4 rounded-full my-6 font-semibold tracking-wide">
-                            DownLoad CV
-                        </a>  
+                          
                         </div>
                         
                     </div>
