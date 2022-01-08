@@ -5,7 +5,7 @@ const HeroSection = () => {
     return (
         <div className='bg-about-bg w-screen h-auto pt-20 md:pt-44 lg:pt-44 xl:pt-44 pb-20  overflow-hidden '>
             <div className="w-screen   h-full mx-auto overflow-hidden">
-                <div className="max-w-7xl mx-auto  h-full  lg:grid-cols-2 md:grid-cols-2  gap-4 overflow-hidden flex justify-between" >
+                <div className="grid max-w-7xl mx-auto  h-full  lg:grid-cols-2 md:grid-cols-2  gap-4 overflow-hidden flex justify-between" >
                     {/* about-#262626  navbar-#222222 hero-*/}
                     <div className="text-white  h-auto px-8 text-center md:text-left lg:text-left overflow-hidden">
                         <h1 className="uppercase text-xl py-5">hi there, I'm</h1>

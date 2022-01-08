@@ -18,7 +18,7 @@ const MyServices = () => {
           <h1 className=" text-xl text-purple tracking-wide font-semibold py-5">What I enjoy doing<p className='h-1 w-14 mb-0.5 bg-purple inline-block' ></p></h1>
           <h1 className=" text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize">my services</h1>
         </div>
-        <div className="  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-8 flex justify-around sm:px-28 px-8 md:px-10 lg:px-10 w-full ">
+        <div className="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-8 flex justify-around sm:px-28 px-8 md:px-10 lg:px-10 w-full ">
           {/* card 1 */}
           <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-white cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
             {/* <div className="contents mx-8 w-full bg-gray-800 h-auto"> */}

@@ -28,7 +28,7 @@ const AboutMe = () => {
 
                         {/* <p className='text-lg md:text-base lg:text-base xl:text-base 2xl:text-base py-4'>I'm very passionate with what i do and always ready to start the next project with you or your company. </p> */}
                         <div className='py-6 md:flex block'>
-                            <Link  to='/files/Felicity_Abel.pdf' target='_blank' download='/files/Felicity_Abel.pdf' className="bg-gradient-purple px-20 py-4 rounded-full my-6 font-semibold tracking-wide">
+                            <Link  to='/files/Felicity_Abel.pdf' target='_blank' download='/files/Felicity_Abel.pdf' className="bg-gradient-purple px-10 py-4 rounded-full my-6 font-semibold tracking-wide">
                                 DownLoad CV
                             </Link>  
                             <a href="https://www.github.com/felabel" target="blank" className="block bg-github px-8  py-4 mr-2 rounded-full my-6 font-semibold tracking-wide">
