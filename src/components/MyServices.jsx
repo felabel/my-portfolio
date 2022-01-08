@@ -13,14 +13,14 @@ const MyServices = () => {
   }, []);
   return (
     <div className='w-full bg-about-bg h-auto pb-10 overflow-hidden' id='services'>
-      <div className="lg:max-w-7xl  mx-auto  ">
+      <div className="lg:max-w-7xl  mx-auto pt-7 ">
         <div className="text-center">
           <h1 className=" text-xl text-purple tracking-wide font-semibold py-5">What I enjoy doing<p className='h-1 w-14 mb-0.5 bg-purple inline-block' ></p></h1>
           <h1 className=" text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize">my services</h1>
         </div>
-        <div className="  grid grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-8 flex justify-around sm:px-28 px-8 md:px-10 lg:px-10 w-full ">
+        <div className="  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 gap-8 flex justify-around sm:px-28 px-8 md:px-10 lg:px-10 w-full ">
           {/* card 1 */}
-          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-teal cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
+          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-white cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
             {/* <div className="contents mx-8 w-full bg-gray-800 h-auto"> */}
               <div className="image w-20 h-20  mx-4">
                 <img src={reactlogo} className='h-full w-full'/>
@@ -37,7 +37,7 @@ const MyServices = () => {
           </div>
           
           {/* // card-2 */}
-          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-teal cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
+          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-white cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
             {/* <div className="contents mx-8 w-full bg-gray-800 h-auto"> */}
               <div className="image w-20 h-20  mx-4">
               <img src={bracket} className='h-full w-full'/>
@@ -55,7 +55,7 @@ const MyServices = () => {
           </div>
 
           {/* card-3 */}
-          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-teal cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
+          <div className="item h-full  pt-4 text-gray-100 rounded-md shadow-md bg-gray-800 hover:bg-white cursor-pointer hover:text-black" data-aos='flip-left' data-aos-delay='250' data-aos-duration='1000'>
             {/* <div className="contents mx-8 w-full bg-gray-800 h-auto"> */}
               <div className="image w-20 h-20  mx-4">
               <img src={digital} className='h-full w-full'/>

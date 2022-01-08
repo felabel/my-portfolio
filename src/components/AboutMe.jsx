@@ -1,6 +1,7 @@
 import React from 'react'
 import profile from './../images/profile-pic.jpeg'
 import github from '../images/github.svg'
+import {Link} from 'react-router-dom'
 
 
 const AboutMe = () => {
@@ -11,9 +12,9 @@ const AboutMe = () => {
                 <h1 className=" text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize">about me </h1>
             </div>
             <div className="max-w-5xl mx-auto  h-full grid lg:grid-cols-2 md:grid-cols-2  gap-4" >
-                    <div className="pic h-full px-8 rounded-md border-8 border-teal  w-9/12 lg:w-full mx-auto" data-aos='fade-right'>
+                    <div className="pic h-full  rounded-md border-8 border-purple-400  w-9/12 lg:w-full mx-auto" data-aos='fade-right'>
                         {/* <img src={profile} alt='' /> */}
-                        <img src={profile} className=' lg:h-full lg:w-full'/>
+                        <img src={profile} className=' lg:h-full lg:w-full  object-cover'/>
                     </div>
                    
                     <div className="text-white  h-auto px-8 text-center md:text-left lg:text-left ">
@@ -27,10 +28,10 @@ const AboutMe = () => {
 
                         {/* <p className='text-lg md:text-base lg:text-base xl:text-base 2xl:text-base py-4'>I'm very passionate with what i do and always ready to start the next project with you or your company. </p> */}
                         <div className='py-6 md:flex block'>
-                            <a  href='./cv.txt' target='_blank' download='./cv.txt' className="bg-gradient-purple px-20 py-4 rounded-full my-6 font-semibold tracking-wide">
+                            <Link  to='/files/Felicity_Abel.pdf' target='_blank' download='/files/Felicity_Abel.pdf' className="bg-gradient-purple px-20 py-4 rounded-full my-6 font-semibold tracking-wide">
                                 DownLoad CV
-                            </a>  
-                            <a href="https://www.github.com/felabel" className="block bg-github px-8  py-4 mr-2 rounded-full my-6 font-semibold tracking-wide">
+                            </Link>  
+                            <a href="https://www.github.com/felabel" target="blank" className="block bg-github px-8  py-4 mr-2 rounded-full my-6 font-semibold tracking-wide">
                                 Github  <span><img src={github} className='inline-block '/></span>
                             </a> 
                           

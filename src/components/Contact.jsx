@@ -6,11 +6,11 @@ import linkedin from '../images/linkedin.svg'
 
 const Contact = () => {
     return (
-        <div className='w-full bg-nav-bg  h-auto pb-2 overflow-hidden -mt-28' id='contact'>
+        <div className='w-full bg-nav-bg  h-auto pb-2 overflow-hidden -mt-28 pt-7' id='contact '>
             <div className="md:w-9/12 lg:max-w-7xl  mx-auto px-4 lg:px-6 pb-12">
                 <div className="text-center">
                     <h1 className="text-center text-xl text-purple tracking-wide font-semibold py-5 fade-up" data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>contact me &nbsp; <p className='h-1 w-14 mb-0.5 bg-purple inline-block' ></p></h1>
-                    <h1 className="capitalize text-center text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize" data-aos='fade-up' data-aos-delay='250' data-aos-duration='500'>get in touch</h1>
+                    <h1 className=" text-center text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize" data-aos='fade-up' data-aos-delay='250' data-aos-duration='500'>get in touch</h1>
                    {/* <p className='text-gray-100  tracking-wide font-semibold fade-up'data-aos-delay ='250' data-aos='fade-up' data-aos-duration='1000'> get in touch</p> */}
                    {/* <p className='text-gray-200 text-lg fade-up' data-aos="fade-up" data-aos-delay='100' data-aos-duration='500'>I am always available to bring your ideas to reality. Get in touch with just a click. Let's work together. </p> */}
 

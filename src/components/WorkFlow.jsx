@@ -13,13 +13,13 @@ const WorkFlow = () => {
   }, []);
   return (
     <div className='w-full bg-nav-bg h-auto pb-2 overflow-hidden' id='workflow'>
-      <div className="w-full lg:max-w-7xl  mx-auto lg:px-6 pb-12">
+      <div className="w-full lg:max-w-7xl  mx-auto lg:px-6 pb-12 pt-7">
         <div className="text-center">
           <h1 className=" text-xl text-purple tracking-wide font-semibold py-5" data-aos='fade-up' data-aos-delay='100' data-aos-duration='500'>How I work<p className='h-1 w-14 mb-0.5 bg-purple inline-block' ></p></h1>
           <h1 className=" text-2xl text-gray-100 tracking-wide font-semibold pb-5 capitalize" data-aos='fade-up' data-aos-delay='250' data-aos-duration='500'>my workflow</h1>
         </div>
-        <div className="  grid w-9/12 lg:max-w-5xl mx-auto md:grid-cols-3 lg:grid-cols- xl:grid-cols-4 2xl:grid-cols-4 gap-8 lg:gap-10 flex justify-around sm:px-28 px- md:px-10 lg:px-10  px-4 md:w-full lg:w-full z-1">
-            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-teal hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
+        <div className="  grid w-9/12 lg:max-w-5xl mx-auto md:grid-cols-3 lg:grid-cols- xl:grid-cols-4 2xl:grid-cols-4 gap-8 lg:gap-10  justify-around sm:px-28 px- md:px-10 lg:px-10  px-4 md:w-full lg:w-full z-1">
+            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-white hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
                
                 <div className="image w-14 h-14  mx-4 " >
                     <img src={idea} className='w-8/12'/>
@@ -32,7 +32,7 @@ const WorkFlow = () => {
             
 
             </div>
-            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-teal hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
+            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-white hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
                
                 <div className="image w-14 h-14  mx-4 " >
                     <img src={workplan} className='w-1/2' />
@@ -45,7 +45,7 @@ const WorkFlow = () => {
             
 
             </div>
-            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-teal hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
+            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-white hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
                
                 <div className="image w-14 h-14  mx-4 " >
                     <img src={bracket}/>
@@ -62,7 +62,7 @@ const WorkFlow = () => {
             
 
             </div>
-            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-teal hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
+            <div className="z-10 item h-auto  pt-6  rounded-md shadow-md text-gray-100 bg-gray-800 hover:bg-white hover:text-black cursor-pointer" data-aos='zoom-in' data-aos-delay='600'>
                
                 <div className="image w-14 h-14  mx-4 " >
                     <img src={typer} className='w-8/12'/>
