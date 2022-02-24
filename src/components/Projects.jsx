@@ -24,6 +24,26 @@ const Projects = () => {
                         <div className="profile-container port-container-1"> 
                             <div className='profile-wrapper'> 
                                 <div className='profile-card'> 
+                                    <h4>Landing Page Website</h4> 
+                                    <p>A landing page website for an e-learning app<span className="text-purple">REACT</span>  </p> 
+                                    <a href='https://recreateapp-landing-page.vercel.app/' target='_blank'>View Website</a> 
+                                </div> 
+                            </div> 
+                        </div> 
+                             {/* card 2    */}
+                        <div className="profile-container port-container-1"> 
+                            <div className='profile-wrapper'> 
+                                <div className='profile-card'> 
+                                    <h4>FeyRep Website</h4> 
+                                    <p>A website for the Family Empowerment & Youth Re-Orientation Path initiative NGO aimed at empowering families and restoring values in the youths.<span className="text-purple">REACT</span>  </p> 
+                                    <a href='https://feyrep.org' target='_blank'>View Website</a> 
+                                </div> 
+                            </div> 
+                        </div> 
+                    {/* card 3    */}
+                        <div className="profile-container port-container-1"> 
+                            <div className='profile-wrapper'> 
+                                <div className='profile-card'> 
                                     <h4>Breaking Bad Casts</h4> 
                                     <p>A furniture e-commerce website built with: React, TailwindCss and Redux for state Management<span className="text-purple">REACT</span>  </p> 
                                     <a href='https://furniture-self.vercel.app/shop' target='_blank'>View Website</a> 
